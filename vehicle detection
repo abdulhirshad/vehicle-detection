@@ -20,7 +20,7 @@ for i in col_frames:
     # append the frames to the list
     col_images.append(img)
     
-# plot 314th frame
+# plot 315th frame
 i =315
 
 for frame in [i, i+1]:
@@ -72,7 +72,7 @@ for i,cntr in enumerate(contours):
 # count of discovered contours        
 len(valid_cntrs)
 
-dmy = col_images[314].copy()
+dmy = col_images[315].copy()
 
 cv2.drawContours(dmy, valid_cntrs, -1, (230,1000,0), 2)
 cv2.line(dmy, (0, 100),(1300,100),(100,255,255))
